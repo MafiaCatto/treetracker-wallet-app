@@ -448,6 +448,21 @@ Install these extensions:
 - **Jest**
 - **React Native Tools** (for mobile development)
 
+## 🪙 Token Rewards
+
+Some issues carry a token reward, shown by a `token:<n>` label where `<n>` is
+the number of tokens.
+
+1. Create a wallet at https://wallet.treetracker.org if you do not have one.
+2. Open a pull request that closes the issue, using `Closes #<issue>` in the
+   description.
+3. Once it is merged, comment `/wallet <your-wallet-name>` on that pull
+   request. Only the pull request author can claim.
+4. Accept the incoming transfer in the wallet app to receive the tokens.
+
+Rewards are paid per issue. An issue already labelled `token:paid` is not
+paid again.
+
 ## 🎯 Getting Help
 
 - **Issues:** For bug reports and feature requests
